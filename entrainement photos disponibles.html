@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entraînement</title>
+    <style>
+        /* Style pour le corps de la page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Style pour le header avec les liens de navigation */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        /* Style pour l'image dans le header */
+        header img {
+            margin-left: 20px;
+            height: 60px;
+            /* ajustez selon la taille de votre image */
+        }
+
+        /* Style pour la section principale */
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Style pour le bouton rouge de suppression */
+        .btn-delete {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Style pour les boutons d'ajout et de gestion des photos */
+        .btn {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn:hover,
+        .btn-delete:hover {
+            opacity: 0.8;
+        }
+
+        /* Section pour les photos */
+        .photos {
+            margin-top: 20px;
+        }
+
+        /* Section des boutons d'inscription et de photos */
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- En-tête avec le menu de navigation et l'image à gauche -->
+    <header>
+        <!-- Image ajoutée dans le header -->
+        <img src="Logo fitness.png" alt="Logo">
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Entraînement</a>
+            <a href="#">Inscription</a>
+            <a href="#">Déconnexion</a>
+        </nav>
+    </header>
+
+    <!-- Section principale contenant les informations sur l'entraînement -->
+    <div class="content">
+        <h2>Nom de l'entraînement 1</h2>
+        <button class="btn-delete">Supprimer</button>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. 
+            Mod tincidunt non pretium euismod et sodales augue euismod imperdiet.
+            <!-- Texte simulé pour l'exemple, remplacez par votre contenu -->
+        </p>
+
+        <!-- Section avec des boutons pour les actions -->
+        <div class="action-buttons">
+            <button class="btn">Inscrit</button>
+            <button class="btn">Photos</button>
+        </div>
+
+        <!-- Section pour la gestion des photos -->
+        <div class="photos">
+            <h3>Photos disponibles</h3>
+            <button class="btn">Ajouter des photos</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
